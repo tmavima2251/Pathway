@@ -394,6 +394,7 @@ async def stream_sse(
             headers=headers,
         ) as response:
             async for line in response.aiter_lines():
+                line = line.rstrip("\n")
                 if len(line) == 0:
                     continue
                 if line.startswith("data:"):
