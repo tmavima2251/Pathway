@@ -1,5 +1,11 @@
 # @gradio/dropdown
 
+## 0.4.2
+
+### Fixes
+
+- [#6694](https://github.com/gradio-app/gradio/pull/6694) [`dfc61ec`](https://github.com/gradio-app/gradio/commit/dfc61ec4d09da72ddd6e7ab726820529621dbd38) - Fix dropdown blur bug when values are provided as tuples.  Thanks [@abidlabs](https://github.com/abidlabs)!
+
 ## 0.4.1
 
 ### Patch Changes
